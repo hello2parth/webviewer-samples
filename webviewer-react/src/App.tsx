@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     if (viewerType === null) return;
 
-    const documentUrl = '/egnyte-api/rest/public/v1/quality-docs/documents/1e36c2c7-90ee-4d43-a209-310c1a1ea352/preview?xsrfToken=279757a0-82f1-47c7-b718-ef71402440bb%4089533522-a32e-4010-ad18-d1e7cdd48e39&deduplicationToken=' + Date.now() + '-' + Math.floor(Math.random() * 100000);
+    const documentUrl = '/egnyte-api/rest/public/v1/quality-docs/documents/1e36c2c7-90ee-4d43-a209-310c1a1ea352/preview?xsrfToken=39fc331c-7644-4a87-82b5-2054642aca10%4089533522-a32e-4010-ad18-d1e7cdd48e39&deduplicationToken=' + Date.now() + '-' + Math.floor(Math.random() * 100000);
 
     if (instanceRef.current) {
       try {
