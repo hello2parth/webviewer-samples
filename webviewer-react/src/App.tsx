@@ -33,6 +33,7 @@ const App = () => {
         filename: 'document.pdf',
         extension: 'pdf',
         licenseKey: 'your_license_key',
+        useDownloader: false
       },
       viewer.current,
     ).then((instance) => {
